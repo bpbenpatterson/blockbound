@@ -45,6 +45,10 @@ The game lives in [`index.html`](./index.html), with CSS and JavaScript embedded
 
 For browser smoke testing, the project can be served locally and driven with Playwright using the system Chromium installation.
 
+## How this was built
+
+Built with LLM coding agents as part of the workflow — scaffolding, refactoring, debugging, and test generation — with every change reviewed against the build, the tests, and observed device or browser behavior before it landed. The architecture decisions, the debugging, and the calls about what shipped were mine.
+
 ## License
 
 The project code is released under the MIT License. See [`LICENSE`](./LICENSE).
